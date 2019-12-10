@@ -19,7 +19,7 @@
     <div class="main">
       <h1>Different Selling Pages</h1>
       <h3>All Up To You-Not A Scam</h3>
-      <p>V-Bucks <a href="https://github.com/Linson132/Interlinked-Website/blob/master/Page%202">Click Here</a> </p>
+      <p>V-Bucks <a href="https://linson132.github.io/Page-2/">Click Here</a> </p>
       <p>Robux <a href="">Click Here</a> </P>
     <p>Proof That Vaccines Cause Autism <a href="">Click Here</a> </p>
     <p>Broken Computer Mouses <a href="">Click Here</a> </p>
