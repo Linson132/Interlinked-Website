@@ -24,6 +24,21 @@
     <p>Proof That Vaccines Cause Autism <a href="https://linson132.github.io/Proof-That-Vaccines-Cause-Autism/">Click Here</a> </p>
     <p>Broken Computer Mouses <a href="">Click Here</a> </p>
     <p>Original Page <a href="https://linson132.github.io/Random-Store/">Click Here</a> </p>
+    <html>
+<head>
+<style>
+body  {
+  background-image: url("paper.gif");
+  background-color: #cccccc;
+}
+</style>
+</head>
+<body>
+
+
+
+</body>
+</html>
      
       
   
