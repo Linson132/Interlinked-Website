@@ -19,44 +19,6 @@
 <a href="sonic.html">Tailes</a>
 </nav>
 
-<body>
-    <div id="target">
-        <a href="#" class="target">Hover over me!</a>
-        <a href="#" class="target">Hover over me too!</a>
-    </div>
-</body>
 
-$('#target').tooltip({
-    items: 'a.target',
-    content: 'Loading…',
-    show: null, // show immediately
-    open: function(event, ui)
-    {
-        if (typeof(event.originalEvent) === 'undefined')
-        {
-            return false;
-        }
 
-        var $id = $(ui.tooltip).attr('id');
-
-        // close any lingering tooltips
-        $('div.ui-tooltip').not('#' + $id).remove();
-
-        // ajax function to pull in data and add it to the tooltip goes here
-    },
-    close: function(event, ui)
-    {
-        ui.tooltip.hover(function()
-        {
-            $(this).stop(true).fadeTo(400, 1);
-        },
-        function()
-        {
-            $(this).fadeOut('400', function()
-            {
-                $(this).remove();
-            });
-        });
-    }
-});
 </html>
