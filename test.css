@@ -1,22 +1,20 @@
-$cor-1: #9b59b6;
-$cor-2: #ecf0f1;
-$cor-3: #27ae60; // green
-
 
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Sofia", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: $cor-3;
+  background: #9b59b6;
 }
 
 nav {
@@ -28,7 +26,6 @@ nav {
   }
 }
 
-
 h1 {
   width: 500px;
   margin: 100px auto 20px;
@@ -39,7 +36,7 @@ h1 {
 .nav {
   width: 500px;
   margin: 0 auto;
-  background: darken( $cor-3, 10% );
+  background: darken(#9b59b6, 10%);
   color: #f0f0f0;
   a {
     display: block;
@@ -48,25 +45,23 @@ h1 {
     cursor: pointer;
   }
 
-   &__menu {
-     line-height: 45px;
-     font-weight: 700;
-     text-transform: uppercase;
-     &-item {
-       display: inline-block;
-       position: relative;
+  &__menu {
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &-item {
+      display: inline-block;
+      position: relative;
 
-       &:hover {
-         background-color: $cor-1;
+      &:hover {
+        background-color: blue;
 
-         .nav__submenu {
-           display: block;
-         }
-       }
-     }
-
-   }
-
+        .nav__submenu {
+          display: block;
+        }
+      }
+    }
+  }
 
   &__submenu {
     font-weight: 300;
@@ -74,13 +69,12 @@ h1 {
     display: none;
     position: absolute;
     width: 220px;
-    background-color: $cor-1;
+    background-color: blue;
 
     &-item {
       &:hover {
-        background: rgba( #000, 0.1 );
+        background: rgba(#000, 0.1);
       }
     }
   }
-
 }
