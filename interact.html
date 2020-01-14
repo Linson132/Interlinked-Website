@@ -1,4 +1,4 @@
-<h1>Hello</h1>
+<center><h1>Hello</h1>
 <a href="index.html">Home Page</a>
 </nav>
 <nav>
@@ -21,6 +21,45 @@
 <a href="ritz.html">Ritz</a>
 </nav>
 <p>We lied<p>
+  </center>
   <style>
   body {background-color: #CCCCFF;}
+  </style>
+  <div class="outer">
+    <center>  <div class="inner">I didn't even know this would work.</div></center>
+  </div>
+  <style>
+  html, body {
+      height: 100%;
+      margin: 0;
+  }
+  .outer {
+      height:100%;
+      overflow: hidden;
+  }
+  .inner {
+      height:200%;
+      width:100%;
+      -webkit-animation:mymove 5s linear infinite;
+      /* Safari and Chrome */
+      animation:mymove 5s linear infinite;
+      background-image: url('https://i.ytimg.com/vi/SmW9Fa1r_QI/hqdefault.jpg');
+      background-size: 100% 50%;
+  }
+  @-webkit-keyframes mymove {
+      from {
+          background-position: 0% 0%;
+      }
+      to {
+          background-position: 0% -100%;
+      }
+  }
+  @keyframes mymove {
+      from {
+          background-position: 0% 0%;
+      }
+      to {
+          background-position: 0% -100%;
+      }
+  }
   </style>

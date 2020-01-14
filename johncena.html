@@ -1,4 +1,4 @@
-<h1>John Cena</h1>
+<center><h1>John Cena</h1>
 
 <a href="index.html">Home Page</a>
 </nav>
@@ -23,4 +23,46 @@
 </nav>
 <style>
 body {background-color: #4d4d00;}
+</style>
+</center>
+<style>
+body {background-color: #CCCCFF;}
+</style>
+<div class="outer">
+  <center>  <div class="inner"></div></center>
+</div>
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.outer {
+    height:100%;
+    overflow: hidden;
+}
+.inner {
+    height:200%;
+    width:100%;
+    -webkit-animation:mymove 5s linear infinite;
+    /* Safari and Chrome */
+    animation:mymove 5s linear infinite;
+    background-image: url('https://i.pinimg.com/originals/1a/1b/ce/1a1bcecf151a70c86d178ddb8b2ae0cd.jpg');
+    background-size: 100% 50%;
+}
+@-webkit-keyframes mymove {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: 0% -100%;
+    }
+}
+@keyframes mymove {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: 0% -100%;
+    }
+}
 </style>
